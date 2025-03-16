@@ -4,12 +4,16 @@ Welcome to my **DSA repository**! This repository contains my **C++**, **Java**,
 
 ## 📌 About This Repository  
 This repository is structured topic-wise to help in organized learning. It includes:  
-- 🔹 **Data Structures** (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, etc.)  
-- 🔹 **Algorithms** (Sorting, Searching, Recursion, Dynamic Programming, etc.)  
-- 🔹 **Problem-Solving** (LeetCode, CodeChef, CodeForces, etc.)  
+- 🔹 **Data Structures**  
+- 🔹 **Algorithms**  
+- 🔹 **Problem-Solving**  
 
 ## 📂 Repository Structure  
-DSA/ │── C++/ │ ├── Sorting/ │ ├── LinkedList/ │ ├── Graphs/ │── Java/ │ ├── Recursion/ │ ├── Trees/ │── Python/ │ ├── DynamicProgramming/ │ ├── Backtracking/ │── README.md
+
+- **C++/**  
+- **Java/**  
+- **Python/**  
+- **README.md**  
 
 Each folder contains topic-specific implementations in **C++**, **Java**, and **Python**.
 
