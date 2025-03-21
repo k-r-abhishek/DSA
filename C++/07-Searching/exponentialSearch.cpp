@@ -33,6 +33,7 @@ int main() {
     int key = 60;
     
     int result = exponentialSearch(arr, size, key);
+    
     if (result != -1)
         cout << "Element found at index " << result << endl;
     else
