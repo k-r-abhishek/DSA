@@ -19,9 +19,11 @@ bool sublistSearch(Node* first, Node* second) {
     Node* ptr1 = first;
     Node* ptr2 = second;
     
-    while (second) {
+    while (second)
+    {
         ptr2 = second;
-        while (ptr1 && ptr2 && ptr1->data == ptr2->data) {
+        while (ptr1 && ptr2 && ptr1->data == ptr2->data)
+        {
             ptr1 = ptr1->next;
             ptr2 = ptr2->next;
         }
