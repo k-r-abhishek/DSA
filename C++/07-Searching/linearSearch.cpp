@@ -18,6 +18,7 @@ int main() {
     int key = 30;
     
     int result = linearSearch(arr, size, key);
+    
     if (result != -1)
         cout << "Element found at index " << result << endl;
     else
