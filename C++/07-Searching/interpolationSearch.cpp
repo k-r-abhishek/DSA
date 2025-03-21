@@ -3,10 +3,12 @@ using namespace std;
 
 // Interpolation Search Algorithm (Only works on uniformly distributed sorted arrays)
 // Time Complexity: O(log log n) on average, O(n) in worst case, Space Complexity: O(1)
-int interpolationSearch(int arr[], int size, int key) {
+int interpolationSearch(int arr[], int size, int key)
+{
     int low = 0, high = size - 1;
     
-    while (low <= high && key >= arr[low] && key <= arr[high]) {
+    while (low <= high && key >= arr[low] && key <= arr[high])
+    {
         // Estimate the probable position of the key
         int pos = low + ((key - arr[low]) * (high - low)) / (arr[high] - arr[low]);
         
@@ -17,6 +19,7 @@ int interpolationSearch(int arr[], int size, int key) {
         else
             high = pos - 1; // Search in left half
     }
+
     return -1; // Not found
 }
 
