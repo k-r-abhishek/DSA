@@ -44,6 +44,7 @@ int jumpSearch(int arr[], int n, int key) {
         step += sqrt(n);
         if (prev >= n) return -1;
     }
+    
     for (int i = prev; i < min(step, n); i++) {
         if (arr[i] == key) return i;
     }
