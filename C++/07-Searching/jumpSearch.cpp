@@ -9,7 +9,8 @@ int jumpSearch(int arr[], int size, int key) {
     int prev = 0;
     
     // Jumping through blocks
-    while (arr[min(step, size) - 1] < key) {
+    while (arr[min(step, size) - 1] < key)
+    {
         prev = step;
         step += sqrt(size);
         if (prev >= size)
@@ -17,7 +18,8 @@ int jumpSearch(int arr[], int size, int key) {
     }
     
     // Linear search in the identified block
-    for (int i = prev; i < min(step, size); i++) {
+    for (int i = prev; i < min(step, size); i++)
+    {
         if (arr[i] == key)
             return i;
     }
