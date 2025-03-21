@@ -17,9 +17,11 @@ int ternarySearch(int arr[], int left, int right, int key) {
 
         if (key < arr[mid1]) {
             right = mid1 - 1;
-        } else if (key > arr[mid2]) {
+        }
+        else if (key > arr[mid2]) {
             left = mid2 + 1;
-        } else {
+        }
+        else {
             left = mid1 + 1;
             right = mid2 - 1;
         }
