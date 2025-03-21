@@ -19,16 +19,21 @@ int fibonacciSearch(int arr[], int n, int key) {
     int offset = -1;
     while (fib > 1) {
         int i = min(offset + fib2, n - 1);
-        if (arr[i] < key) {
+        if (arr[i] < key)
+        {
             fib = fib1;
             fib1 = fib2;
             fib2 = fib - fib1;
             offset = i;
-        } else if (arr[i] > key) {
+        }
+        else if (arr[i] > key)
+        {
             fib = fib2;
             fib1 = fib1 - fib2;
             fib2 = fib - fib1;
-        } else {
+        }
+        else
+        {
             return i;
         }
     }
