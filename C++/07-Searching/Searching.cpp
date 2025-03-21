@@ -36,9 +36,11 @@ int binarySearch(int arr[], int left, int right, int key) {
    - Jumps ahead in blocks of sqrt(n) and then searches linearly
 */
 #include <cmath>
-int jumpSearch(int arr[], int n, int key) {
+int jumpSearch(int arr[], int n, int key)
+{
     int step = sqrt(n);
     int prev = 0;
+    
     while (arr[min(step, n) - 1] < key) {
         prev = step;
         step += sqrt(n);
