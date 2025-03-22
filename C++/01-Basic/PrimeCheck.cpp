@@ -11,7 +11,8 @@ bool isPrimeBasic(int n) {
 }
 
 // ✅ Approach 2: Optimized (Iterate from 2 to sqrt(n))
-bool isPrimeOptimized(int n) {
+bool isPrimeOptimized(int n)
+{
     if (n < 2) return false;
     if (n == 2 || n == 3) return true; // 2 and 3 are prime numbers
     if (n % 2 == 0 || n % 3 == 0) return false; // Eliminate multiples of 2 and 3
