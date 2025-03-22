@@ -2,7 +2,8 @@
 using namespace std;
 
 // ✅ Approach 1: Using a For Loop (Iterative)
-int sumEvenUsingLoop(int n) {
+int sumEvenUsingLoop(int n)
+{
     int sum = 0;
     for (int i = 2; i <= n; i += 2) { // Increment by 2 for even numbers
         sum += i;
