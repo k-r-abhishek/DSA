@@ -2,7 +2,8 @@
 using namespace std;
 
 // ✅ Approach 1: Using a For Loop (Iterative)
-int sumUsingLoop(int n) {
+int sumUsingLoop(int n)
+{
     int sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += i;
