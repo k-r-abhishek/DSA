@@ -35,38 +35,51 @@ int main() {
     char ch = 'a';
     
     // 1️⃣ Simple if condition
-    if (a > b) {
+    if (a > b)
+    {
         cout << "a is greater than b\n";
     }
 
     // 2️⃣ if-else condition
-    if (x >= 0) {
+    if (x >= 0)
+    {
         cout << "x is non-negative\n";
-    } else {
+    }
+    else
+    {
         cout << "x is negative\n";
     }
 
     // 3️⃣ if-else if-else ladder
-    if (y > 0) {
+    if (y > 0)
+    {
         cout << "y is positive\n";
-    } else if (y < 0) {
+    }
+    else if (y < 0)
+    {
         cout << "y is negative\n";
-    } else {
+    }
+    else
+    {
         cout << "y is zero\n";
     }
 
     // 4️⃣ Nested if condition
     if (a > 0) {
-        if (a % 2 == 0) {
+        if (a % 2 == 0)
+        {
             cout << "a is positive and even\n";
-        } else {
+        }
+        else
+        {
             cout << "a is positive but odd\n";
         }
     }
 
     // 5️⃣ Switch case (integer case)
     int num = 2;
-    switch (num) {
+    switch (num)
+    {
         case 1:
             cout << "Number is One\n";
             break;
@@ -78,7 +91,8 @@ int main() {
     }
 
     // 6️⃣ Switch case (character case)
-    switch (ch) {
+    switch (ch)
+    {
         case 'A':
         case 'a':
             cout << "Character is A or a\n";
@@ -110,11 +124,14 @@ int main() {
     char testChar = '5';
     if (isupper(testChar)) {
         cout << "It's an uppercase letter\n";
-    } else if (islower(testChar)) {
+    }
+    else if (islower(testChar)) {
         cout << "It's a lowercase letter\n";
-    } else if (isdigit(testChar)) {
+    }
+    else if (isdigit(testChar)) {
         cout << "It's a digit\n";
-    } else {
+    }
+    else {
         cout << "It's a special character\n";
     }
 
