@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <climits> // For limits like INT_MAX, CHAR_MIN
 #include <cfloat>  // For float and double limits
 using namespace std;
