@@ -53,7 +53,8 @@ int main() {
 
     // 5 Nested Loops (Multiplication Table)
     cout << "Multiplication Table (1 to 5): " << endl;
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 1; i <= 5; i++)
+    {
         for (int j = 1; j <= 5; j++) {
             cout << i * j << "\t";
         }
@@ -62,7 +63,8 @@ int main() {
 
     // 6 Using Break (Stops loop early)
     cout << "Using Break (Stops at 5): ";
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 10; i++)
+    {
         if (i == 6) break;
         cout << i << " ";
     }
@@ -70,7 +72,8 @@ int main() {
 
     // 7 Using Continue (Skips a number)
     cout << "Using Continue (Skipping 5): ";
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 10; i++)
+    {
         if (i == 5) continue;
         cout << i << " ";
     }
@@ -79,7 +82,8 @@ int main() {
     // Using break to stop at a certain number
     cout << "Break Example: Stop when number is 5" << endl;
     
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 10; i++)
+    {
         if (i == 5) {
             cout << "Loop breaks here at: " << i << endl;
             break;  // Loop stops when i == 5
