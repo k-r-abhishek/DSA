@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 void printSquarePattern(int n) {
@@ -151,6 +151,7 @@ void printHollowDiamondStars(int n) {
 
 int main() {
     int n;
+    
     cout << "Enter the size of the pattern: ";
     cin >> n;
 
