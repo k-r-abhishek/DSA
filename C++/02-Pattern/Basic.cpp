@@ -11,7 +11,6 @@
     Inverted Pyramid
     Floyd’s Triangle
 */
-
 #include <bits/stdc++.h>
 using namespace std;
 
