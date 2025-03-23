@@ -34,4 +34,5 @@ int main()
     cout << "Enter b: " << endl;
     cin >> b;
     cout << setbit(a, b) << endl;
+    return 0;
 }
