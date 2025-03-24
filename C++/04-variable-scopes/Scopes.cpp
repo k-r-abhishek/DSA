@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 // 🔹 Global Variable (Accessible throughout the program)
