@@ -42,7 +42,7 @@ void blockScopeExample() {
 
 // 🔹 Mutable Variable Example (Used with `const` objects)
 class Example {
-public:
+    public:
     int normalVar;
     mutable int mutableVar; // Can be modified inside a `const` function
 
