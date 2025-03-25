@@ -11,6 +11,7 @@ int factorial(int n)
     }
     return fact;
 }
+
 int nCr(int n, int r)
 {
     int numerator = factorial(n);
@@ -18,6 +19,7 @@ int nCr(int n, int r)
     int ans = numerator / denominator;
     return ans;
 }
+
 int main()
 {
     int n, r;
