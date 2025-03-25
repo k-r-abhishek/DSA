@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 bool isPrime(int number)
 {
     for(int i = 2; i < number; i++)
@@ -26,4 +25,5 @@ int main()
     {
         cout << "Number is not prime" << endl;
     }
+    return 0;
 }
