@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Function to print count up to N
@@ -12,11 +12,9 @@ void printCount(int n) {
 
 int main() {
     int n;
-
     // Taking user input
     cout << "Enter a number (N): ";
     cin >> n;
-
     // Function call to print count
     printCount(n);
 
