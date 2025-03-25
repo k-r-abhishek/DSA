@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to calculate factorial of a number
-long long factorial(int num) {
+// Function to calculate factorial of a number iteratively
+long long factorial(int num)
+{
     long long fact = 1;
     for (int i = 2; i <= num; i++) {
         fact *= i;
@@ -10,24 +11,24 @@ long long factorial(int num) {
     return fact;
 }
 
-// Function to calculate nCr = n! / (r! * (n-r)!)
-long long calculate_nCr(int n, int r) {
-    if (r > n) return 0; // nCr is not defined for r > n
-    return factorial(n) / (factorial(r) * factorial(n - r));
-}
-
 int main() {
-    int n, r;
+    int n;
 
     // Taking input from user
-    cout << "Enter values for n and r (nCr): ";
-    cin >> n >> r;
+    cout << "Enter a number to calculate factorial: ";
+    cin >> n;
 
-    // Function call to calculate nCr
-    long long result = calculate_nCr(n, r);
+    if (n < 0) {
+        cout << "Factorial is not defined for negative numbers." << endl;
+    }
+    else
+    {
+        // Function call to calculate factorial
+        long long result = factorial(n);
 
-    // Display the result
-    cout << "The value of " << n << "C" << r << " is: " << result << endl;
+        // Display the result
+        cout << "Factorial of " << n << " is: " << result << endl;
+    }
 
     return 0;
 }
