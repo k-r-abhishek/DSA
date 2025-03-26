@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// function to swap the alternate element of the array
 void swapAlternate(int arr[], int size)
 {
     for(int i = 0; i < size; i = i + 2)
