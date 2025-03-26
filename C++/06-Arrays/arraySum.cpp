@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// sum of elements of array
+
 int arraySum(int arr[], int size)
 {
     int sum = 0;
