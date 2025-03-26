@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <cstring>
 #include <cctype>
 #include <cstdlib>
