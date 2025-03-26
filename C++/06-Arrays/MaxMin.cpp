@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// minimum element in the array
 int getMin(int num[], int size)
 {
     int min = INT_MAX;
@@ -14,6 +15,7 @@ int getMin(int num[], int size)
     return min;
 }
 
+// maximum element in the array
 int getMax(int num[], int size)
 {
     int max = INT_MIN;
