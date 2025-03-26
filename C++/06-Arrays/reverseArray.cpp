@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// reverse array function
 void reverse(int arr[], int size)
 {
     int start = 0;
