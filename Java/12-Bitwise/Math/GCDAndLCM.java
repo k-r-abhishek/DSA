@@ -9,7 +9,6 @@ public class GCDAndLCM {
         // Finding LCM
         System.out.println("LCM of " + num1 + " and " + num2 + " is: " + lcm(num1, num2));
     }
-
     /**
      * Computes the Greatest Common Divisor (GCD) of two numbers using
      * the Euclidean Algorithm.
