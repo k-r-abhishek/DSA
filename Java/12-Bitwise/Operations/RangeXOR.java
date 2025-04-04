@@ -41,4 +41,4 @@ public class RangeXOR {
 
 // Computes XOR of all numbers in range [a, b] using efficient pattern recognition:
 // XOR(0-n) follows a cycle of 4, enabling O(1) calculation. Implements both efficient
-// formula (XOR(0,b) ^ XOR(0,a-1)) and brute-force verification.
+// formula (XOR(0,b) ^ XOR(0,a-1)) and brute-force verification
